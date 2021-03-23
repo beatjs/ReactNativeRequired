@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '11.0'
+
+target 'ReactNativeRequired_Example' do
+  pod 'ReactNativeRequired', :path => '../'
+
+  target 'ReactNativeRequired_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - ReactNativeRequired (0.1.0)
+
+DEPENDENCIES:
+  - ReactNativeRequired (from `../`)
+
+EXTERNAL SOURCES:
+  ReactNativeRequired:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ReactNativeRequired: 41bec278a1a070aa1cfbabe394f4c82e1f076dd1
+
+PODFILE CHECKSUM: 2ac7b9a08efec88e3a01d3c220da1c81dc022ce9
+
+COCOAPODS: 1.10.1
