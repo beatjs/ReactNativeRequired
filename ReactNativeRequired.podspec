@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'ReactNativeRequired'
-  s.version = '0.1.2'
+  s.version = '0.1.3'
   s.summary = 'An runtime base on react-native.'
   s.description =
   <<-DESC
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   s.author = { 'Liam Xu' => 'liamxujia@outlook.com' }
   s.source = { :git => 'https://github.com/beatjs/ReactNativeRequired.git', :tag => s.version.to_s }
   
-  s.module_name = 'ReactNativeRequired'
+  s.module_name = 'RCTRequired'
   s.header_dir = 'RCTRequired'
   s.libraries = 'stdc++'
   s.ios.deployment_target = '11.0'
