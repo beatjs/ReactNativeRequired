@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name = 'ReactNativeRequired'
-  s.version = '0.1.4'
+  s.version = '0.1.5'
   s.summary = 'An runtime base on react-native.'
   s.description =
   <<-DESC
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   s.libraries = 'stdc++'
   s.ios.deployment_target = '11.0'
   s.source_files =
-    'ReactNativeRequired/*.cpp'
+    'RCTRequired/*.cpp'
     s.preserve_paths =
-    'ReactNativeRequired/*.h'
+    'RCTRequired/*.h'
   s.platforms = { :ios => '11.0' }
 end
